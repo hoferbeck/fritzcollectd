@@ -5,7 +5,7 @@ RUN apk add --no-cache \
         collectd \
         collectd-python \
         collectd-network \
-        python2 \
+        python \
         py-pip \
         py-lxml \
         py-pbr \
