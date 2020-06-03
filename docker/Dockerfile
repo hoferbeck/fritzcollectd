@@ -6,9 +6,9 @@ RUN apk add --no-cache \
         collectd-python \
         collectd-network \
         python2 \
-        py2-pip \
-        py2-lxml \
-        py2-pbr \
+        py-pip \
+        py-lxml \
+        py-pbr \
         git
 
 # Copy entrypoint script.
