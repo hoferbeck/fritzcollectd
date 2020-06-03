@@ -1,14 +1,14 @@
 FROM alpine
 
 # Install collectd and dependencies for fritzcollectd.
-RUN apk add --no-cache \
+RUN apk add --no-cache --update \
         collectd \
         collectd-python \
         collectd-network \
-        python3 \
-        py-pip \
-        py-lxml \
-        py-pbr \
+        python2 \
+        py2-pip \
+    #    py2-lxml \
+        py2-pbr \
         git
 
 # Copy entrypoint script.
